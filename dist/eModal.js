@@ -64,6 +64,7 @@
             title: 'Attention'
         };
 
+        root.reset = function() {$modal = null;};
         root.addLabel = addLabel;
         root.ajax = ajax;
         root.alert = alert;
